@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="psiklic.fesb.projekt">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ikona"
+        android:label="Preschool testing"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Cetvrti_zadatak" />
+        <activity android:name=".Peti_zadatak" />
+        <activity android:name=".Treci_zadatak" />
+        <activity android:name=".Drugi_zadatak" />
+        <activity android:name=".Kraj" />
+        <activity android:name=".Prvi_zadatak" />
+        <activity android:name=".Pocetak_testa" />
+        <activity android:name=".Prijava" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cetvrti_zadatak"
+    android:orientation="vertical"
+    android:background="@drawable/prvi"
+    >
+
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.zadatak"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:fontFamily="@font/alice"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#000000"
+            app:fontFamily="@font/alice"
+            android:text="Povežite geometrijske likove:"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/broj1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  1."
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/trokut" />
+
+        <TextView
+            android:id="@+id/txtkvadrat"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="KVADRAT"
+            android:textColor="#000000"
+            app:fontFamily="@font/alice"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/edt1"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_weight="0"
+            android:maxLength="1"
+            android:textStyle="bold"
+            android:inputType="number"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/broj2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  2."
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bluecircle" />
+
+        <TextView
+            android:id="@+id/txtPravokutnik"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="PRAVOKUTNIK"
+            android:textSize="17dp"
+            android:textColor="#000000"
+            app:fontFamily="@font/alice"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/edt2"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_weight="0"
+            android:maxLength="1"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/broj3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  3."
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/plava_boja" />
+
+        <TextView
+            android:id="@+id/txtTrokut"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="TROKUT"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            app:fontFamily="@font/alice"
+            android:textSize="17dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/edt3"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_weight="0"
+            android:maxLength="1"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+
+        <TextView
+            android:id="@+id/broj4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  4."
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pravokutnik"
+            />
+
+        <TextView
+            android:id="@+id/txtKrug"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="KRUG"
+            android:textSize="17dp"
+            android:textColor="#000000"
+            app:fontFamily="@font/alice"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/edt4"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_weight="0"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/btnProvjeri"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#ffff99"
+            android:background="@drawable/custom_button"
+            android:text="Provjeri"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnDalje"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#ffff99"
+            android:background="@drawable/custom_button"
+            android:text="Dalje"
+            android:layout_marginRight="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="Dalje4"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+

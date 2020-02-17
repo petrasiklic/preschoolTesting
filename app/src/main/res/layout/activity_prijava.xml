@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Prijava"
+    android:background="@drawable/prvii"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Podaci o djetetu"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/amarante" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:fontFamily="@font/alice"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Ime"
+            android:maxLength="20"
+            android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/edtLastName"
+            android:hint="Prezime"
+            android:fontFamily="@font/alice"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:maxLength="20"
+            android:textColorHint="#000000"/>
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:hint="Datum rođenja"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/alice"
+            android:maxLength="11"
+            android:textColorHint="#000000"/>
+
+        <EditText
+            android:id="@+id/edtAddress"
+            android:hint="Adresa"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/alice"
+            android:maxLength="50"
+            android:textColorHint="#000000"/>
+
+        <EditText
+            android:id="@+id/edtContact"
+            android:hint="Kontakt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/alice"
+            android:maxLength="10"
+            android:textColorHint="#000000"/>
+
+        <EditText
+            android:id="@+id/edtParentName"
+            android:hint="Ime roditelja"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/alice"
+            android:maxLength="20"
+            android:textColorHint="#000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="Masa"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                app:fontFamily="@font/alice" />
+
+
+            <EditText
+                android:id="@+id/edtWeight"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="1"
+                android:inputType="numberSigned"
+                android:textSize="20dp"
+                android:maxLength="2"
+                android:layout_marginRight="130dp"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Visina"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                app:fontFamily="@font/alice" />
+
+            <EditText
+                android:id="@+id/edtHeight"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="130dp"
+                android:ems="1"
+                android:inputType="numberSigned"
+                android:textSize="20dp"
+                android:maxLength="3"
+                android:text=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            >
+
+            <CheckBox
+                android:fontFamily="@font/alice"
+                android:id="@+id/checkBox1"
+                style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prerano rođenje"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:fontFamily="@font/alice"
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oštećenje vida i sluha"
+                android:textSize="18dp"
+               />
+
+            <CheckBox
+                android:fontFamily="@font/alice"
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kronične bolesti"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:fontFamily="@font/alice"
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Motorička oštećenja"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alice"
+                android:text="Invaliditet"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:fontFamily="@font/alice"
+                android:id="@+id/checkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Govorne mane"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:fontFamily="@font/alice"
+                android:id="@+id/checkBox7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Poremećaj u ponašanju"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:fontFamily="@font/alice"
+                android:id="@+id/checkBox8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nadprosječna inteligencija"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+
+                <Button
+                    android:id="@+id/btnAddInfo"
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button"
+                    android:backgroundTint="#ffccff"
+                    android:text="Spremi"
+                    android:textAllCaps="false"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/btnP"
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="italic"
+                    android:textAllCaps="false"
+                    android:textSize="15dp"
+                    android:text="Baza"
+                    android:background="@drawable/custom_button"
+                    android:backgroundTint="#9999ff"/>
+
+                <Button
+                    android:id="@+id/btnDalje"
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:onClick="Dalje"
+                    android:textStyle="italic"
+                    android:textAllCaps="false"
+                    android:textSize="15dp"
+                    android:text="Dalje"
+                    android:background="@drawable/custom_button"
+                    android:backgroundTint="#ff99ff"/>/>
+            </LinearLayout>
+        </LinearLayout>
+
+</ScrollView>
